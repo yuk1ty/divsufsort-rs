@@ -18,14 +18,14 @@ publish = false
 c-bench = []
 
 [dependencies]
-rayon = "1"
+rayon = "1.11.0"
 
 [build-dependencies]
-cc = "1"
+cc = "1.2.57"
 
 [dev-dependencies]
-criterion = { version = "0.8", features = ["html_reports"] }
-pprof = { version = "0.15", features = ["flamegraph", "criterion"] }
+criterion = { version = "0.8.2", features = ["html_reports"] }
+pprof = { version = "0.15.0", features = ["flamegraph", "criterion"] }
 
 [profile.bench]
 debug = true
